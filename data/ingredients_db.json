@@ -1,0 +1,541 @@
+{
+  "ingredients": {
+    "water": {
+      "category": "healthy",
+      "health_score": 10,
+      "description": "Essential for hydration"
+    },
+    "sugar": {
+      "category": "harmful",
+      "health_score": 2,
+      "description": "Added sugars contribute to obesity and diabetes"
+    },
+    "high fructose corn syrup": {
+      "category": "harmful",
+      "health_score": 1,
+      "description": "Highly processed sweetener linked to metabolic issues"
+    },
+    "salt": {
+      "category": "moderate",
+      "health_score": 5,
+      "description": "Essential in small amounts, harmful in excess"
+    },
+    "sodium": {
+      "category": "moderate",
+      "health_score": 5,
+      "description": "Essential electrolyte, but excess raises blood pressure"
+    },
+    "whole grain wheat": {
+      "category": "healthy",
+      "health_score": 8,
+      "description": "Good source of fiber and nutrients"
+    },
+    "enriched flour": {
+      "category": "moderate",
+      "health_score": 4,
+      "description": "Refined flour with added vitamins"
+    },
+    "wheat flour": {
+      "category": "moderate",
+      "health_score": 5,
+      "description": "Refined carbohydrate"
+    },
+    "olive oil": {
+      "category": "healthy",
+      "health_score": 9,
+      "description": "Heart-healthy monounsaturated fats"
+    },
+    "palm oil": {
+      "category": "harmful",
+      "health_score": 3,
+      "description": "High in saturated fat"
+    },
+    "vegetable oil": {
+      "category": "moderate",
+      "health_score": 5,
+      "description": "Depends on type and processing"
+    },
+    "soybean oil": {
+      "category": "moderate",
+      "health_score": 5,
+      "description": "Common cooking oil, moderately healthy"
+    },
+    "canola oil": {
+      "category": "healthy",
+      "health_score": 7,
+      "description": "Low in saturated fat"
+    },
+    "butter": {
+      "category": "moderate",
+      "health_score": 4,
+      "description": "High in saturated fat but natural"
+    },
+    "artificial flavors": {
+      "category": "harmful",
+      "health_score": 2,
+      "description": "Synthetic chemicals mimicking natural flavors"
+    },
+    "natural flavors": {
+      "category": "moderate",
+      "health_score": 6,
+      "description": "Derived from natural sources but processed"
+    },
+    "msg": {
+      "category": "moderate",
+      "health_score": 4,
+      "description": "Monosodium glutamate - flavor enhancer"
+    },
+    "monosodium glutamate": {
+      "category": "moderate",
+      "health_score": 4,
+      "description": "Flavor enhancer, safe in moderation"
+    },
+    "aspartame": {
+      "category": "harmful",
+      "health_score": 2,
+      "description": "Artificial sweetener with controversial health effects"
+    },
+    "sucralose": {
+      "category": "moderate",
+      "health_score": 4,
+      "description": "Artificial sweetener"
+    },
+    "stevia": {
+      "category": "healthy",
+      "health_score": 7,
+      "description": "Natural zero-calorie sweetener"
+    },
+    "honey": {
+      "category": "moderate",
+      "health_score": 6,
+      "description": "Natural sweetener with some nutrients"
+    },
+    "brown rice": {
+      "category": "healthy",
+      "health_score": 8,
+      "description": "Whole grain with fiber and nutrients"
+    },
+    "white rice": {
+      "category": "moderate",
+      "health_score": 5,
+      "description": "Refined grain, lower in nutrients"
+    },
+    "oats": {
+      "category": "healthy",
+      "health_score": 9,
+      "description": "Excellent source of fiber and protein"
+    },
+    "rolled oats": {
+      "category": "healthy",
+      "health_score": 9,
+      "description": "Whole grain oats, heart healthy"
+    },
+    "quinoa": {
+      "category": "healthy",
+      "health_score": 9,
+      "description": "Complete protein, nutrient dense"
+    },
+    "sodium nitrate": {
+      "category": "harmful",
+      "health_score": 1,
+      "description": "Preservative linked to cancer risk"
+    },
+    "sodium nitrite": {
+      "category": "harmful",
+      "health_score": 1,
+      "description": "Preservative in processed meats"
+    },
+    "potassium sorbate": {
+      "category": "moderate",
+      "health_score": 5,
+      "description": "Common preservative, generally safe"
+    },
+    "sodium benzoate": {
+      "category": "harmful",
+      "health_score": 3,
+      "description": "Preservative that may form benzene"
+    },
+    "citric acid": {
+      "category": "healthy",
+      "health_score": 7,
+      "description": "Natural acid found in citrus fruits"
+    },
+    "ascorbic acid": {
+      "category": "healthy",
+      "health_score": 8,
+      "description": "Vitamin C"
+    },
+    "vitamin c": {
+      "category": "healthy",
+      "health_score": 8,
+      "description": "Essential vitamin, antioxidant"
+    },
+    "vitamin d": {
+      "category": "healthy",
+      "health_score": 8,
+      "description": "Essential for bone health"
+    },
+    "calcium": {
+      "category": "healthy",
+      "health_score": 8,
+      "description": "Essential mineral for bones"
+    },
+    "iron": {
+      "category": "healthy",
+      "health_score": 8,
+      "description": "Essential mineral for blood health"
+    },
+    "red 40": {
+      "category": "harmful",
+      "health_score": 1,
+      "description": "Artificial dye linked to hyperactivity"
+    },
+    "yellow 5": {
+      "category": "harmful",
+      "health_score": 1,
+      "description": "Artificial dye with health concerns"
+    },
+    "yellow 6": {
+      "category": "harmful",
+      "health_score": 1,
+      "description": "Artificial dye with health concerns"
+    },
+    "blue 1": {
+      "category": "harmful",
+      "health_score": 2,
+      "description": "Artificial dye"
+    },
+    "caramel color": {
+      "category": "moderate",
+      "health_score": 4,
+      "description": "Common coloring, some types controversial"
+    },
+    "beet juice": {
+      "category": "healthy",
+      "health_score": 8,
+      "description": "Natural coloring from beets"
+    },
+    "turmeric": {
+      "category": "healthy",
+      "health_score": 9,
+      "description": "Anti-inflammatory spice"
+    },
+    "ginger": {
+      "category": "healthy",
+      "health_score": 8,
+      "description": "Digestive aid and anti-inflammatory"
+    },
+    "garlic": {
+      "category": "healthy",
+      "health_score": 9,
+      "description": "Immune boosting, heart healthy"
+    },
+    "onion": {
+      "category": "healthy",
+      "health_score": 8,
+      "description": "Rich in antioxidants"
+    },
+    "tomatoes": {
+      "category": "healthy",
+      "health_score": 8,
+      "description": "Rich in lycopene and vitamins"
+    },
+    "tomato paste": {
+      "category": "healthy",
+      "health_score": 7,
+      "description": "Concentrated tomatoes"
+    },
+    "milk": {
+      "category": "healthy",
+      "health_score": 7,
+      "description": "Good source of calcium and protein"
+    },
+    "skim milk": {
+      "category": "healthy",
+      "health_score": 7,
+      "description": "Low-fat dairy"
+    },
+    "whole milk": {
+      "category": "healthy",
+      "health_score": 7,
+      "description": "Full-fat dairy with vitamins"
+    },
+    "cream": {
+      "category": "moderate",
+      "health_score": 4,
+      "description": "High in saturated fat"
+    },
+    "cheese": {
+      "category": "moderate",
+      "health_score": 5,
+      "description": "Good protein but high in sodium and fat"
+    },
+    "eggs": {
+      "category": "healthy",
+      "health_score": 8,
+      "description": "Complete protein source"
+    },
+    "chicken": {
+      "category": "healthy",
+      "health_score": 8,
+      "description": "Lean protein source"
+    },
+    "beef": {
+      "category": "moderate",
+      "health_score": 5,
+      "description": "Good protein, higher in saturated fat"
+    },
+    "pork": {
+      "category": "moderate",
+      "health_score": 5,
+      "description": "Protein source, varies by cut"
+    },
+    "salmon": {
+      "category": "healthy",
+      "health_score": 9,
+      "description": "Rich in omega-3 fatty acids"
+    },
+    "tuna": {
+      "category": "healthy",
+      "health_score": 7,
+      "description": "Lean protein, watch mercury content"
+    },
+    "beans": {
+      "category": "healthy",
+      "health_score": 9,
+      "description": "High in fiber and protein"
+    },
+    "black beans": {
+      "category": "healthy",
+      "health_score": 9,
+      "description": "Excellent plant protein"
+    },
+    "lentils": {
+      "category": "healthy",
+      "health_score": 9,
+      "description": "High protein and fiber legume"
+    },
+    "chickpeas": {
+      "category": "healthy",
+      "health_score": 9,
+      "description": "Versatile legume, high in fiber"
+    },
+    "almonds": {
+      "category": "healthy",
+      "health_score": 9,
+      "description": "Heart-healthy nuts"
+    },
+    "walnuts": {
+      "category": "healthy",
+      "health_score": 9,
+      "description": "Rich in omega-3s"
+    },
+    "peanuts": {
+      "category": "healthy",
+      "health_score": 7,
+      "description": "Good protein source"
+    },
+    "peanut butter": {
+      "category": "healthy",
+      "health_score": 7,
+      "description": "Protein-rich spread"
+    },
+    "coconut oil": {
+      "category": "moderate",
+      "health_score": 5,
+      "description": "High in saturated fat, debated benefits"
+    },
+    "trans fat": {
+      "category": "harmful",
+      "health_score": 0,
+      "description": "Extremely harmful to heart health"
+    },
+    "partially hydrogenated oil": {
+      "category": "harmful",
+      "health_score": 0,
+      "description": "Contains trans fats"
+    },
+    "hydrogenated oil": {
+      "category": "harmful",
+      "health_score": 1,
+      "description": "Processed oil, may contain trans fats"
+    },
+    "corn syrup": {
+      "category": "harmful",
+      "health_score": 2,
+      "description": "Processed sweetener"
+    },
+    "maltodextrin": {
+      "category": "moderate",
+      "health_score": 4,
+      "description": "Processed carbohydrate filler"
+    },
+    "xanthan gum": {
+      "category": "moderate",
+      "health_score": 6,
+      "description": "Natural thickener, generally safe"
+    },
+    "guar gum": {
+      "category": "moderate",
+      "health_score": 6,
+      "description": "Natural fiber thickener"
+    },
+    "carrageenan": {
+      "category": "moderate",
+      "health_score": 4,
+      "description": "Seaweed extract, some digestive concerns"
+    },
+    "soy lecithin": {
+      "category": "moderate",
+      "health_score": 6,
+      "description": "Emulsifier, generally safe"
+    },
+    "whey protein": {
+      "category": "healthy",
+      "health_score": 8,
+      "description": "High quality protein"
+    },
+    "soy protein": {
+      "category": "healthy",
+      "health_score": 7,
+      "description": "Plant-based protein"
+    },
+    "spinach": {
+      "category": "healthy",
+      "health_score": 10,
+      "description": "Nutrient-dense leafy green"
+    },
+    "kale": {
+      "category": "healthy",
+      "health_score": 10,
+      "description": "Superfood leafy green"
+    },
+    "broccoli": {
+      "category": "healthy",
+      "health_score": 9,
+      "description": "Nutrient-rich vegetable"
+    },
+    "carrots": {
+      "category": "healthy",
+      "health_score": 8,
+      "description": "High in vitamin A"
+    },
+    "celery": {
+      "category": "healthy",
+      "health_score": 7,
+      "description": "Low calorie, high fiber"
+    },
+    "potatoes": {
+      "category": "healthy",
+      "health_score": 6,
+      "description": "Good carbohydrate source"
+    },
+    "sweet potatoes": {
+      "category": "healthy",
+      "health_score": 8,
+      "description": "Rich in vitamins and fiber"
+    },
+    "corn": {
+      "category": "moderate",
+      "health_score": 6,
+      "description": "Whole grain, can be processed"
+    },
+    "avocado": {
+      "category": "healthy",
+      "health_score": 9,
+      "description": "Healthy fats and nutrients"
+    },
+    "apple": {
+      "category": "healthy",
+      "health_score": 8,
+      "description": "Fiber and natural sugars"
+    },
+    "banana": {
+      "category": "healthy",
+      "health_score": 7,
+      "description": "Good potassium source"
+    },
+    "blueberries": {
+      "category": "healthy",
+      "health_score": 10,
+      "description": "Antioxidant superfood"
+    },
+    "strawberries": {
+      "category": "healthy",
+      "health_score": 9,
+      "description": "High in vitamin C"
+    },
+    "cocoa": {
+      "category": "healthy",
+      "health_score": 7,
+      "description": "Rich in antioxidants"
+    },
+    "chocolate": {
+      "category": "moderate",
+      "health_score": 5,
+      "description": "Benefits depend on cocoa content"
+    },
+    "bht": {
+      "category": "harmful",
+      "health_score": 2,
+      "description": "Synthetic preservative"
+    },
+    "tbhq": {
+      "category": "harmful",
+      "health_score": 2,
+      "description": "Synthetic antioxidant preservative"
+    },
+    "propylene glycol": {
+      "category": "harmful",
+      "health_score": 3,
+      "description": "Chemical additive"
+    },
+    "polysorbate 80": {
+      "category": "moderate",
+      "health_score": 4,
+      "description": "Emulsifier with some concerns"
+    },
+    "vinegar": {
+      "category": "healthy",
+      "health_score": 7,
+      "description": "Natural fermented product"
+    },
+    "apple cider vinegar": {
+      "category": "healthy",
+      "health_score": 8,
+      "description": "Natural with potential health benefits"
+    },
+    "yeast": {
+      "category": "healthy",
+      "health_score": 7,
+      "description": "Natural leavening agent"
+    },
+    "baking soda": {
+      "category": "moderate",
+      "health_score": 6,
+      "description": "Leavening agent, high sodium"
+    },
+    "baking powder": {
+      "category": "moderate",
+      "health_score": 6,
+      "description": "Leavening agent"
+    }
+  },
+  "categories": {
+    "healthy": {
+      "color": "green",
+      "description": "Nutritious ingredients that support health",
+      "score_range": [7, 10]
+    },
+    "moderate": {
+      "color": "yellow",
+      "description": "Acceptable in moderation",
+      "score_range": [4, 6]
+    },
+    "harmful": {
+      "color": "red",
+      "description": "Should be limited or avoided",
+      "score_range": [0, 3]
+    }
+  }
+}
